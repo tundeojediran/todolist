@@ -1,0 +1,123 @@
+/* Basic Style */
+
+* {
+  font-family: Lato, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  font-family: Lato, sans-serif;
+  background-color: #386fa4;
+}
+
+.container {
+  display: block;
+  width: 500px;
+  margin: 10px auto 100px;
+  background-color: #fff;
+  padding: 0px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.new-task-container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+li,
+h3 {
+  clear: both;
+  list-style: none;
+}
+
+input,
+button {
+  outline: none;
+}
+
+button {
+  border: 0px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+h3 {
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 20px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+input[type="text"] {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid #777777;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+}
+
+input[type="text"]:focus {
+  color: #333;
+}
+
+#new-task {
+  width: 80%;
+}
+
+
+.list-item {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-name {
+  font-size: 18px;
+  line-height: 20px;
+  width: 80%;
+  padding: 0 0 0 8px;
+  margin: 0;
+}
+
+
+#add-button {
+  width: 20%;
+	background-color: #133c55;
+  color: #fff;
+}
+
+.delete-button {
+	background-color: red;
+  width: 20%;
+}
+
